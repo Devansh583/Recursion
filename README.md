@@ -1,4 +1,4 @@
-# Recursion
+# C++ Programs
 All the practiced program for Recursion in C++
 Programs in C++:
 1. factorial of a no.
