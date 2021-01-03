@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-//defining the function factorial
+//defining the function sum
 int sum(int num)
 {
     //base condition
@@ -11,6 +11,7 @@ int sum(int num)
     {
         return 0;
     }
+    //function calling itself
     return num+sum(num-1);
 }
 
@@ -21,7 +22,7 @@ int main(void)
     cout<<"Enter the number of natural numbers: ";
     cin>>num;
 
-    //display the factorial of the entered number
+    //display the sum of n natural numbers
     cout<<"Sum of "<<num<<" natural numbers is "<<sum(num);
     
 }
