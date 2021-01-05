@@ -28,3 +28,8 @@ int main(void)
     cout<<"String on modification: "<<remove_x(s, s.length());
 
 }
+/*
+Sample Output
+Enter the string: axxxd
+String on modification: adxxx
+*/
